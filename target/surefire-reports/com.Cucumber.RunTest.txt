@@ -1,0 +1,116 @@
+-------------------------------------------------------------------------------
+Test set: com.Cucumber.RunTest
+-------------------------------------------------------------------------------
+Tests run: 112, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 810.411 sec <<< FAILURE!
+And I CompareData for AccountCodeName(Scenario: Open MicroStrategy)  Time elapsed: 0.03 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-12513423, -12676310, -13357055, -136326192751, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]> but was:<[-12513423, -12676310, -13357055, -136312997913, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareAccountCodeNameData(PageStepDefs.java:164)
+	at ?.And I CompareData for AccountCodeName(com/Cucumber/AccountCodeName.feature:28)
+Scenario: Open MicroStrategy  Time elapsed: 0.04 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-12513423, -12676310, -13357055, -136326192751, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]> but was:<[-12513423, -12676310, -13357055, -136312997913, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareAccountCodeNameData(PageStepDefs.java:164)
+	at ?.And I CompareData for AccountCodeName(com/Cucumber/AccountCodeName.feature:28)
+And I CompareData for Currency(Scenario: Open MicroStrategy)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-937266]> but was:<[-19433809, -790278, -937266, 53074941]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareCurrencyData(PageStepDefs.java:515)
+	at ?.And I CompareData for Currency(com/Cucumber/Currency.feature:28)
+Scenario: Open MicroStrategy  Time elapsed: 0.047 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-937266]> but was:<[-19433809, -790278, -937266, 53074941]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareCurrencyData(PageStepDefs.java:515)
+	at ?.And I CompareData for Currency(com/Cucumber/Currency.feature:28)
+And I CompareData for Date(Scenario: Open MicroStrategy)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-136508525413]> but was:<[9476273942]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareDateData(PageStepDefs.java:502)
+	at ?.And I CompareData for Date(com/Cucumber/Date.feature:28)
+Scenario: Open MicroStrategy  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-136508525413]> but was:<[9476273942]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareDateData(PageStepDefs.java:502)
+	at ?.And I CompareData for Date(com/Cucumber/Date.feature:28)
+And I CompareData for DistributionChannel(Scenario: Open MicroStrategy)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-120464736890, -12362950, -1766342261, -176842295, -2037810, -2182671531, -2294028, -23550560788, -5136510, -52889777, 11508002674, 200686025, 5487868]> but was:<[-120465232149, -12362850, -1712482915, -176331537, -2037810, -2182749703, -2294028, -23592528725, -5136510, -52745617, 11508310636, 201599905, 5487868]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareDistributionChannelData(PageStepDefs.java:268)
+	at ?.And I CompareData for DistributionChannel(com/Cucumber/DistributionChannel.feature:28)
+Scenario: Open MicroStrategy  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-120464736890, -12362950, -1766342261, -176842295, -2037810, -2182671531, -2294028, -23550560788, -5136510, -52889777, 11508002674, 200686025, 5487868]> but was:<[-120465232149, -12362850, -1712482915, -176331537, -2037810, -2182749703, -2294028, -23592528725, -5136510, -52745617, 11508310636, 201599905, 5487868]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareDistributionChannelData(PageStepDefs.java:268)
+	at ?.And I CompareData for DistributionChannel(com/Cucumber/DistributionChannel.feature:28)
+And I CompareData for Month(Scenario: Open MicroStrategy)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-74824413520]> but was:<[-74823585734]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareMonthData(PageStepDefs.java:489)
+	at ?.And I CompareData for Month(com/Cucumber/Month.feature:28)
+Scenario: Open MicroStrategy  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-74824413520]> but was:<[-74823585734]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareMonthData(PageStepDefs.java:489)
+	at ?.And I CompareData for Month(com/Cucumber/Month.feature:28)
+And I CompareData for Quarter(Scenario: Open MicroStrategy)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-136508525413]> but was:<[9476273942]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareQuarterData(PageStepDefs.java:463)
+	at ?.And I CompareData for Quarter(com/Cucumber/Quarter.feature:28)
+Scenario: Open MicroStrategy  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-136508525413]> but was:<[9476273942]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareQuarterData(PageStepDefs.java:463)
+	at ?.And I CompareData for Quarter(com/Cucumber/Quarter.feature:28)
+And I CompareData for Year(Scenario: Open MicroStrategy)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[296849335311]> but was:<[296334929616]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareYearData(PageStepDefs.java:476)
+	at ?.And I CompareData for Year(com/Cucumber/Year.feature:28)
+Scenario: Open MicroStrategy  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[296849335311]> but was:<[296334929616]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareYearData(PageStepDefs.java:476)
+	at ?.And I CompareData for Year(com/Cucumber/Year.feature:28)

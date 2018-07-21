@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.Cucumber.CurrencyTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 111.423 sec <<< FAILURE!
+And I CompareData for Currency(Scenario: Open MicroStrategy)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-937266]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareCurrencyData(PageStepDefs.java:515)
+	at ?.And I CompareData for Currency(com/Cucumber/Currency.feature:28)
+Scenario: Open MicroStrategy  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<[-937266]> but was:<[]>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareCurrencyData(PageStepDefs.java:515)
+	at ?.And I CompareData for Currency(com/Cucumber/Currency.feature:28)

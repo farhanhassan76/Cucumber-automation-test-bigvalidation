@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="14" time="0.137" errors="0" skipped="0" tests="112" name="com.Cucumber.RunTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\bin"/>
+    <property name="java.vm.version" value="24.51-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\shumail.qureshi\Desktop\putnam-test"/>
+    <property name="java.runtime.version" value="1.7.0_51-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHUMAI~1.QUR\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\apache-maven\bin;C:\Program Files\Java\jdk1.7.0_51\bin;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\shumail.qureshi"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="shumail.qureshi"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_51\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_51"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_51\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.008" classname="Scenario: Open MicroStrategy" name="Given I open the login \/MicroStrategy\/asp\/Main.aspx page"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter Administrator in the Uid field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter PutnaM@123 in the Pwd field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I click on the button 3054"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;projects_ProjectsStyle\&quot;]\/table\/tbody\/tr[2]\/td[1]\/div\/table\/tbody\/tr\/td[2]\/a"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for dktpSectionView to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;dktpSectionView\&quot;]\/a[1]"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for folderAllModes to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[1]\/td[2]\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath  \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[17]\/td[1]\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0.03" classname="Scenario: Open MicroStrategy" name="And I CompareData for AccountCodeName">
+    <failure message="expected:&lt;[-12513423, -12676310, -13357055, -136326192751, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]&gt; but was:&lt;[-12513423, -12676310, -13357055, -136312997913, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[-12513423, -12676310, -13357055, -136326192751, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]&gt; but was:&lt;[-12513423, -12676310, -13357055, -136312997913, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareAccountCodeNameData(PageStepDefs.java:164)
+	at ✽.And I CompareData for AccountCodeName(com/Cucumber/AccountCodeName.feature:28)
+</failure>
+    <system-out>Connection to Postgresql is successfull
+The DB Query is running on End Date : 2014-10-31 00:00:00
+Results fetched successfully
+Total Rows = 51
+Total Rows = 6
+Table Row Size : 55
+UI Values:[-12513423, -12676310, -13357055, -136312997913, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]
+DB Values:[-12513423, -12676310, -13357055, -136326192751, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]
+</system-out>
+  </testcase>
+  <testcase time="0.04" classname="Scenario: Open MicroStrategy" name="Scenario: Open MicroStrategy">
+    <failure message="expected:&lt;[-12513423, -12676310, -13357055, -136326192751, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]&gt; but was:&lt;[-12513423, -12676310, -13357055, -136312997913, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[-12513423, -12676310, -13357055, -136326192751, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]&gt; but was:&lt;[-12513423, -12676310, -13357055, -136312997913, -14678550, -157344, -164324, -176902, -19433809, -2039411, -2162351, -23773, -23849196, -25621, -2704822, -29253653, -3197681, -3208273, -33646244, -3541162, -40379552, -406342, -431623, -44557, -4774663, -5534306, -586611, -5873306, -600749, -6132163, -63056, -643658, -7458021, -790278, -7923574, -8018, -848547, -9301538, -937266, -9563173, -96901, -985078, 108285, 12770996, 174690, 1971858, 20883461, 2369241, 2541989, 395433, 4234511, 5029368, 53074941, 562819, 569770]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareAccountCodeNameData(PageStepDefs.java:164)
+	at ✽.And I CompareData for AccountCodeName(com/Cucumber/AccountCodeName.feature:28)
+</failure>
+  </testcase>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="Given I open the login \/MicroStrategy\/asp\/Main.aspx page"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter Administrator in the Uid field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter PutnaM@123 in the Pwd field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I click on the button 3054"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;projects_ProjectsStyle\&quot;]\/table\/tbody\/tr[2]\/td[1]\/div\/table\/tbody\/tr\/td[2]\/a"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for dktpSectionView to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;dktpSectionView\&quot;]\/a[1]"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for folderAllModes to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[1]\/td[2]\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath  \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[2]\/td[1]\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0.001" classname="Scenario: Open MicroStrategy" name="And I CompareData for Currency">
+    <failure message="expected:&lt;[-937266]&gt; but was:&lt;[-19433809, -790278, -937266, 53074941]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[-937266]&gt; but was:&lt;[-19433809, -790278, -937266, 53074941]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareCurrencyData(PageStepDefs.java:515)
+	at ✽.And I CompareData for Currency(com/Cucumber/Currency.feature:28)
+</failure>
+    <system-out>Connection to Postgresql is successfull
+The DB Query is running on End Date : 2014-10-31 00:00:00
+Results fetched successfully
+Total Rows = 5
+Table Row Size : 4
+UI Values:[-19433809, -790278, -937266, 53074941]
+DB Values:[-937266]
+</system-out>
+  </testcase>
+  <testcase time="0.047" classname="Scenario: Open MicroStrategy" name="Scenario: Open MicroStrategy">
+    <failure message="expected:&lt;[-937266]&gt; but was:&lt;[-19433809, -790278, -937266, 53074941]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[-937266]&gt; but was:&lt;[-19433809, -790278, -937266, 53074941]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareCurrencyData(PageStepDefs.java:515)
+	at ✽.And I CompareData for Currency(com/Cucumber/Currency.feature:28)
+</failure>
+  </testcase>
+  <testcase time="0.001" classname="Scenario: Open MicroStrategy" name="Given I open the login \/MicroStrategy\/asp\/Main.aspx page"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter Administrator in the Uid field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter PutnaM@123 in the Pwd field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I click on the button 3054"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;projects_ProjectsStyle\&quot;]\/table\/tbody\/tr[2]\/td[1]\/div\/table\/tbody\/tr\/td[2]\/a"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for dktpSectionView to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;dktpSectionView\&quot;]\/a[1]"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for folderAllModes to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[1]\/td[2]\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath  \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[3]\/td[2]\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I CompareData for Date">
+    <failure message="expected:&lt;[-136508525413]&gt; but was:&lt;[9476273942]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[-136508525413]&gt; but was:&lt;[9476273942]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareDateData(PageStepDefs.java:502)
+	at ✽.And I CompareData for Date(com/Cucumber/Date.feature:28)
+</failure>
+    <system-out>Connection to Postgresql is successfull
+The DB Query is running on End Date : 2014-10-31 00:00:00
+Results fetched successfully
+Total Rows = 2
+Table Row Size : 1
+UI Values:[9476273942]
+DB Values:[-136508525413]
+</system-out>
+  </testcase>
+  <testcase time="0.001" classname="Scenario: Open MicroStrategy" name="Scenario: Open MicroStrategy">
+    <failure message="expected:&lt;[-136508525413]&gt; but was:&lt;[9476273942]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[-136508525413]&gt; but was:&lt;[9476273942]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareDateData(PageStepDefs.java:502)
+	at ✽.And I CompareData for Date(com/Cucumber/Date.feature:28)
+</failure>
+  </testcase>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="Given I open the login \/MicroStrategy\/asp\/Main.aspx page"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter Administrator in the Uid field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter PutnaM@123 in the Pwd field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I click on the button 3054"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;projects_ProjectsStyle\&quot;]\/table\/tbody\/tr[2]\/td[1]\/div\/table\/tbody\/tr\/td[2]\/a"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for dktpSectionView to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;dktpSectionView\&quot;]\/a[1]"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for folderAllModes to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[1]\/td[2]\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath  \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[4]\/td[1]\/div"/>
+  <testcase time="0.002" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0.001" classname="Scenario: Open MicroStrategy" name="And I CompareData for DistributionChannel">
+    <failure message="expected:&lt;[-120464736890, -12362950, -1766342261, -176842295, -2037810, -2182671531, -2294028, -23550560788, -5136510, -52889777, 11508002674, 200686025, 5487868]&gt; but was:&lt;[-120465232149, -12362850, -1712482915, -176331537, -2037810, -2182749703, -2294028, -23592528725, -5136510, -52745617, 11508310636, 201599905, 5487868]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[-120464736890, -12362950, -1766342261, -176842295, -2037810, -2182671531, -2294028, -23550560788, -5136510, -52889777, 11508002674, 200686025, 5487868]&gt; but was:&lt;[-120465232149, -12362850, -1712482915, -176331537, -2037810, -2182749703, -2294028, -23592528725, -5136510, -52745617, 11508310636, 201599905, 5487868]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareDistributionChannelData(PageStepDefs.java:268)
+	at ✽.And I CompareData for DistributionChannel(com/Cucumber/DistributionChannel.feature:28)
+</failure>
+    <system-out>Connection to Postgresql is successfull
+The DB Query is running on End Date : 2014-10-31 00:00:00
+Results fetched successfully
+Total Rows = 14
+Table Row Size : 13
+UI Values:[-120465232149, -12362850, -1712482915, -176331537, -2037810, -2182749703, -2294028, -23592528725, -5136510, -52745617, 11508310636, 201599905, 5487868]
+DB Values:[-120464736890, -12362950, -1766342261, -176842295, -2037810, -2182671531, -2294028, -23550560788, -5136510, -52889777, 11508002674, 200686025, 5487868]
+</system-out>
+  </testcase>
+  <testcase time="0.001" classname="Scenario: Open MicroStrategy" name="Scenario: Open MicroStrategy">
+    <failure message="expected:&lt;[-120464736890, -12362950, -1766342261, -176842295, -2037810, -2182671531, -2294028, -23550560788, -5136510, -52889777, 11508002674, 200686025, 5487868]&gt; but was:&lt;[-120465232149, -12362850, -1712482915, -176331537, -2037810, -2182749703, -2294028, -23592528725, -5136510, -52745617, 11508310636, 201599905, 5487868]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[-120464736890, -12362950, -1766342261, -176842295, -2037810, -2182671531, -2294028, -23550560788, -5136510, -52889777, 11508002674, 200686025, 5487868]&gt; but was:&lt;[-120465232149, -12362850, -1712482915, -176331537, -2037810, -2182749703, -2294028, -23592528725, -5136510, -52745617, 11508310636, 201599905, 5487868]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareDistributionChannelData(PageStepDefs.java:268)
+	at ✽.And I CompareData for DistributionChannel(com/Cucumber/DistributionChannel.feature:28)
+</failure>
+  </testcase>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="Given I open the login \/MicroStrategy\/asp\/Main.aspx page"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter Administrator in the Uid field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter PutnaM@123 in the Pwd field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I click on the button 3054"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;projects_ProjectsStyle\&quot;]\/table\/tbody\/tr[2]\/td[1]\/div\/table\/tbody\/tr\/td[2]\/a"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for dktpSectionView to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;dktpSectionView\&quot;]\/a[1]"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for folderAllModes to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[1]\/td[2]\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath  \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[12]\/td[1]\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0.001" classname="Scenario: Open MicroStrategy" name="And I CompareData for Month">
+    <failure message="expected:&lt;[-74824413520]&gt; but was:&lt;[-74823585734]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[-74824413520]&gt; but was:&lt;[-74823585734]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareMonthData(PageStepDefs.java:489)
+	at ✽.And I CompareData for Month(com/Cucumber/Month.feature:28)
+</failure>
+    <system-out>Connection to Postgresql is successfull
+The DB Query is running on Year : 2014 And Month : 10
+Results fetched successfully
+Total Rows = 2
+Table Row Size : 1
+UI Values:[-74823585734]
+DB Values:[-74824413520]
+</system-out>
+  </testcase>
+  <testcase time="0.001" classname="Scenario: Open MicroStrategy" name="Scenario: Open MicroStrategy">
+    <failure message="expected:&lt;[-74824413520]&gt; but was:&lt;[-74823585734]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[-74824413520]&gt; but was:&lt;[-74823585734]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareMonthData(PageStepDefs.java:489)
+	at ✽.And I CompareData for Month(com/Cucumber/Month.feature:28)
+</failure>
+  </testcase>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="Given I open the login \/MicroStrategy\/asp\/Main.aspx page"/>
+  <testcase time="0.001" classname="Scenario: Open MicroStrategy" name="When I enter Administrator in the Uid field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter PutnaM@123 in the Pwd field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I click on the button 3054"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;projects_ProjectsStyle\&quot;]\/table\/tbody\/tr[2]\/td[1]\/div\/table\/tbody\/tr\/td[2]\/a"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for dktpSectionView to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;dktpSectionView\&quot;]\/a[1]"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for folderAllModes to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[1]\/td[2]\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath  \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[15]\/td[2]\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I CompareData for Quarter">
+    <failure message="expected:&lt;[-136508525413]&gt; but was:&lt;[9476273942]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[-136508525413]&gt; but was:&lt;[9476273942]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareQuarterData(PageStepDefs.java:463)
+	at ✽.And I CompareData for Quarter(com/Cucumber/Quarter.feature:28)
+</failure>
+    <system-out>Connection to Postgresql is successfull
+The DB Query is running on End Date : 2014-10-31 00:00:00
+Results fetched successfully
+Total Rows = 2
+Table Row Size : 1
+UI Values:[9476273942]
+DB Values:[-136508525413]
+</system-out>
+  </testcase>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="Scenario: Open MicroStrategy">
+    <failure message="expected:&lt;[-136508525413]&gt; but was:&lt;[9476273942]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[-136508525413]&gt; but was:&lt;[9476273942]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareQuarterData(PageStepDefs.java:463)
+	at ✽.And I CompareData for Quarter(com/Cucumber/Quarter.feature:28)
+</failure>
+  </testcase>
+  <testcase time="0.001" classname="Scenario: Open MicroStrategy" name="Given I open the login \/MicroStrategy\/asp\/Main.aspx page"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter Administrator in the Uid field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I enter PutnaM@123 in the Pwd field"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I click on the button 3054"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;projects_ProjectsStyle\&quot;]\/table\/tbody\/tr[2]\/td[1]\/div\/table\/tbody\/tr\/td[2]\/a"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for dktpSectionView to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;dktpSectionView\&quot;]\/a[1]"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I wait for folderAllModes to visible"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[1]\/td[2]\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0.001" classname="Scenario: Open MicroStrategy" name="When I click on the element using Xpath  \/\/*[@id=\&quot;FolderIcons\&quot;]\/tbody\/tr[22]\/td\/div"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I wait some seconds"/>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="And I CompareData for Year">
+    <failure message="expected:&lt;[296849335311]&gt; but was:&lt;[296334929616]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[296849335311]&gt; but was:&lt;[296334929616]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareYearData(PageStepDefs.java:476)
+	at ✽.And I CompareData for Year(com/Cucumber/Year.feature:28)
+</failure>
+    <system-out>Connection to Postgresql is successfull
+The DB Query is running on Year : 2014
+Results fetched successfully
+Total Rows = 2
+Table Row Size : 1
+UI Values:[296334929616]
+DB Values:[296849335311]
+</system-out>
+  </testcase>
+  <testcase time="0" classname="Scenario: Open MicroStrategy" name="Scenario: Open MicroStrategy">
+    <failure message="expected:&lt;[296849335311]&gt; but was:&lt;[296334929616]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[296849335311]&gt; but was:&lt;[296334929616]&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.Cucumber.PageStepDefs.CompareYearData(PageStepDefs.java:476)
+	at ✽.And I CompareData for Year(com/Cucumber/Year.feature:28)
+</failure>
+  </testcase>
+</testsuite>
